@@ -1,0 +1,7 @@
+in this directory there are the results and plots related to the tests of the DPU formula:
+
+(A0 * B0) + (A1 * B1) + (A2 * B2) + (A3 * B3) + C0
+
+there is a script which varies the two operands A0 and B0. the rest of the operands are fixed to a specific value on the other hand....
+
+the final plot is bacicly a heat map where it shows the error which is a color, and the x and y axis correspond to A0 and B0 respectively.
