@@ -1,15 +1,16 @@
 import random
+import sys, os
 
 # Open file for writing
-with open("output.txt", "w") as file:
+with open("/mnt/c/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/parametricDPU_rel0vectors.txt", "w") as file:
     
     file.write(f"# widthSeld, typeSel, A0_8, A1_8, A2_8, A3_8, B0_8, B1_8, B2_8, B3_8, C0_8, A0_16, A1_16, A2_16, A3_16, B0_16, B1_16, B2_16, B3_16, C0_16, A0_32, A1_32, A2_32, A3_32, B0_32, B1_32, B2_32, B3_32, C0_32  \n" )
     
     for _ in range(10000):
+    #for _ in range(100):
         widthSel = random.randint(0, 2)  # integer between 0 and 2 inclusive
-        typeSel = random.randint(0, 1)  # integer between 0 and 1 inclusive
-        
-        
+        typeSel = random.randint(0, 2)  # integer between 0 and 1 inclusive
+                
         #random A,B,C0 (8 bits)
         A0_8 = random.randint(0, 255) 
         A1_8 = random.randint(0, 255) 
@@ -54,27 +55,27 @@ with open("output.txt", "w") as file:
         hex_B3_8 = format( B3_8, '02X') #2-digit upper case hex without the 0x prefix
         hex_C0_8 = format( C0_8, '02X') #2-digit upper case hex without the 0x prefix
         
-        hex_A0_16 = format( A0_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A1_16 = format( A1_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A2_16 = format( A2_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A3_16 = format( A3_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B0_16 = format( B0_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B1_16 = format( B1_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B1_16 = format( B1_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B2_16 = format( B2_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B3_16 = format( B3_16, '02X') #2-digit upper case hex without the 0x prefix
-        hex_C0_16 = format( C0_16, '02X') #2-digit upper case hex without the 0x prefix
+        hex_A0_16 = format( A0_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_A1_16 = format( A1_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_A2_16 = format( A2_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_A3_16 = format( A3_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_B0_16 = format( B0_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_B1_16 = format( B1_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_B1_16 = format( B1_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_B2_16 = format( B2_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_B3_16 = format( B3_16, '04X') #4-digit upper case hex without the 0x prefix
+        hex_C0_16 = format( C0_16, '04X') #4-digit upper case hex without the 0x prefix
         
-        hex_A0_32 = format( A0_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A1_32 = format( A1_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A2_32 = format( A2_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_A3_32 = format( A3_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B0_32 = format( B0_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B1_32 = format( B1_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B1_32 = format( B1_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B2_32 = format( B2_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_B3_32 = format( B3_32, '02X') #2-digit upper case hex without the 0x prefix
-        hex_C0_32 = format( C0_32, '02X') #2-digit upper case hex without the 0x prefix
+        hex_A0_32 = format( A0_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_A1_32 = format( A1_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_A2_32 = format( A2_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_A3_32 = format( A3_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_B0_32 = format( B0_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_B1_32 = format( B1_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_B1_32 = format( B1_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_B2_32 = format( B2_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_B3_32 = format( B3_32, '08X') #8-digit upper case hex without the 0x prefix
+        hex_C0_32 = format( C0_32, '08X') #8-digit upper case hex without the 0x prefix
         
         file.write(f"{widthSel} {typeSel} {hex_A0_8} {hex_A1_8} {hex_A2_8} {hex_A3_8} {hex_B0_8} {hex_B1_8} {hex_B2_8} {hex_B3_8} {hex_C0_8} {hex_A0_16} {hex_A1_16} {hex_A2_16} {hex_A3_16} {hex_B0_16} {hex_B1_16} {hex_B2_16} {hex_B3_16} {hex_C0_16} {hex_A0_32} {hex_A1_32} {hex_A2_32} {hex_A3_32} {hex_B0_32} {hex_B1_32} {hex_B2_32} {hex_B3_32} {hex_C0_32}\n")
 
