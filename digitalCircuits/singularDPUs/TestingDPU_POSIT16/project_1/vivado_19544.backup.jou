@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 18 12:20:20 2025
+# Process ID: 19544
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10948 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_POSIT16\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/project_1/project_1.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source Posit16_Mult_tb.tcl
+close_sim
+launch_simulation
+source Posit16_Mult_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source Posit16_Mult_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source Posit16_Mult_tb.tcl
+set_property top Posit16_Dpu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+launch_simulation
+source Posit16_Dpu_tb.tcl
+close_sim

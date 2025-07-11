@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/def_package.vhd,1745418592,vhdl,C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/dot_unit_core_tb.vhd,,,def_package,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/dot_unit_core.vhd,1742210592,vhdl,,,,dot_unit_core,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/dot_unit_coreFP8.vhd,1742210874,vhdl,,,,dot_unit_corefp8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/dot_unit_coreFP8_tb.vhd,1743414052,vhdl,,,,dot_unit_corefp8_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/dot_unit_core_tb.vhd,1745612817,vhdl,,,,dot_unit_core_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/fp_leading_zeros_and_shift.vhd,1742143855,vhdl,,,,fp_leading_zeros_and_shift,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/fp_leading_zeros_and_shiftFP8.vhd,1742148100,vhdl,,,,fp_leading_zeros_and_shiftfp8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/multiplier_FP.vhd,1743244995,vhdl,,,,multiplier_fp,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/multiplier_FP8.vhd,1743423846,vhdl,,,,multiplier_fp8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/prueba.vhd,1731310479,vhdl,,,,prueba,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/pruebaFP8.vhd,1742147102,vhdl,,,,pruebafp8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/right_shifter.vhd,1742143629,vhdl,,,,right_shifter,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/right_shifterFP8.vhd,1742146731,vhdl,,,,right_shifterfp8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/suma_resta.vhd,1731310479,vhdl,,,,adder_fp,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP/project_2/suma_restaFP8.vhd,1742146422,vhdl,,,,adder_fp8,,,,,,,,

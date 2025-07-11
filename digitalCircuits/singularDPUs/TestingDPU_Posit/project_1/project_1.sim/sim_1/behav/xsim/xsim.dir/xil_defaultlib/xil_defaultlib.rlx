@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit8es0_Mult/Posit2PIF.vhd,1743688872,vhdl,,,,normalizer_zo_6_6_7_comb_uid4;posit2pif_8_0,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/PositToFixConv.vhd,1744100650,vhdl,,,,posit8tofix,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/PositToFixConv_tb.vhd,1744060658,vhdl,,,,posittofixconv_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_Adder.vhd,1743598471,vhdl,,,,mypositadder;normalizer_zo_11_11_15_comb_uid16;normalizer_zo_6_6_7_comb_uid10;normalizer_zo_6_6_7_comb_uid6;pif2posit_8_0_comb_uid18;pifadd_5_5_comb_uid12;posit2pif_8_0_comb_uid4;posit2pif_8_0_comb_uid8;rightshiftersticky8_by_max_8_comb_uid20;rightshiftersticky9_by_max_9_comb_uid14,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_Adder_TB.vhd,1743675808,vhdl,,,,testbench_mypositadder_comb_uid22,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_DPU.vhd,1744568623,vhdl,,,,dotproductunitposit,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_DPU_tb.vhd,1745409746,vhdl,,,,posit_dpu_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_Mult.vhd,1744122220,vhdl,,,,lzocshifter_6_to_6_counting_8_f0_uid10;lzocshifter_6_to_6_counting_8_f0_uid6;positdecoder_8_0_f0_uid4;positdecoder_8_0_f0_uid8;positmult_8_0_f0_uid2;rightshiftersticky13_by_max_7_f0_uid12,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/Posit_Mult_tb.vhd,1744204339,vhdl,,,,posit_mult_tb,,,,,,,,

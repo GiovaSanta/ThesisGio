@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Posit16_Mult_tb_behav" "xil_defaultlib.Posit16_Mult_tb" -log "elaborate.log" 

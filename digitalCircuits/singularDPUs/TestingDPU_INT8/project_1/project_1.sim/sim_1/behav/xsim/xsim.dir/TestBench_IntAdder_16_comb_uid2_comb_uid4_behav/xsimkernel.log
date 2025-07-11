@@ -1,0 +1,7 @@
+Running: xsim.dir/TestBench_IntAdder_16_comb_uid2_comb_uid4_behav/xsimk.exe -simmode gui -wdb TestBench_IntAdder_16_comb_uid2_comb_uid4_behav.wdb -simrunnum 0 -socket 62877
+Design successfully loaded
+Design Loading Memory Usage: 9280 KB (Peak: 9280 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 19880 KB (Peak: 19880 KB)
+Simulation CPU Usage: 92 ms

@@ -1,0 +1,7 @@
+Running: xsim.dir/TestBench_IntMultiplier_8x8_16_comb_uid2_comb_uid89_behav/xsimk.exe -simmode gui -wdb TestBench_IntMultiplier_8x8_16_comb_uid2_comb_uid89_behav.wdb -simrunnum 0 -socket 57082
+Design successfully loaded
+Design Loading Memory Usage: 9528 KB (Peak: 9528 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 10220 KB (Peak: 10220 KB)
+Simulation CPU Usage: 93 ms

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/posit16_0_Add.vhd,1744986548,vhdl,,,,lzcshifter_15_to_15_counting_16_f0_uid14;lzocshifter_14_to_14_counting_16_f0_uid10;lzocshifter_14_to_14_counting_16_f0_uid6;positadd;positdecoder_16_1_f0_uid4;positdecoder_16_1_f0_uid8;rightshiftersticky15_by_max_15_f0_uid12;rightshiftersticky18_by_max_15_f0_uid16,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/posit16_0_DPU.vhd,1744987000,vhdl,,,,dotproductunitposit16,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/posit16_0_DPU_tb.vhd,1745411603,vhdl,,,,posit16_dpu_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/posit16_0_Mul.vhd,1744986707,vhdl,,,,positmult_16_1_f0_uid2;rightshiftersticky28_by_max_15_f0_uid12,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_POSIT16/posit16_0_Mul_tb.vhd,1744986783,vhdl,,,,posit16_mult_tb,,,,,,,,

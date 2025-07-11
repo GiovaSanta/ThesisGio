@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DPU_TOP_INT_TB_behav" "xil_defaultlib.DPU_TOP_INT_TB" -log "elaborate.log" 

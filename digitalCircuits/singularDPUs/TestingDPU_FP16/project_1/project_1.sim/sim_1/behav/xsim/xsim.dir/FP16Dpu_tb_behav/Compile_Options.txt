@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "FP16Dpu_tb_behav" "xil_defaultlib.FP16Dpu_tb" -log "elaborate.log" 

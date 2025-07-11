@@ -1,0 +1,11 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/parametricDPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'parametricDPUrel0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/mux_rel0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_rel0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int16_32/Adder_INT.vhd" into library INT16_32_DPU
+INFO: [VRFC 10-3107] analyzing entity 'Adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int16_32/Multiplier_INT.vhd" into library INT16_32_DPU
+INFO: [VRFC 10-3107] analyzing entity 'Multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int16_32/def_package.vhd" into library INT16_32_DPU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int16_32/DPU_TOP_INT.vhd" into library INT16_32_DPU
+INFO: [VRFC 10-3107] analyzing entity 'dot_unit_coreINT'

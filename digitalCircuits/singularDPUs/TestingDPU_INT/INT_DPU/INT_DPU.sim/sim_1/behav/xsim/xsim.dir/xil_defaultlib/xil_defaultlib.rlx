@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/Adder_INT.vhd,1742553023,vhdl,,,,adder,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/Adder_INT_TB.vhd,1742914022,vhdl,,,,adder_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/DPU_TOP_INT.vhd,1742914987,vhdl,,,,dot_unit_coreint,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/DPU_TOP_INT_TB.vhd,1742915082,vhdl,,,,dpu_top_int_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/Multiplier_INT.vhd,1742913566,vhdl,,,,multiplier,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/Multiplier_INT_TB.vhd,1742547837,vhdl,,,,multiplier_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/def_package.vhd,1742555576,vhdl,C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT/DPU_TOP_INT_TB.vhd,,,def_package,,,,,,,,

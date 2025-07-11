@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../def_package.vhd" \
+"../../../../dot_unit_core.vhd" \
+"../../../../fp_leading_zeros_and_shift.vhd" \
+"../../../../multiplier_FP.vhd" \
+"../../../../prueba.vhd" \
+"../../../../right_shifter.vhd" \
+"../../../../suma_resta.vhd" \
+"../../../../dot_unit_core_tb.vhd" \
+
+# Do not sort compile order
+nosort

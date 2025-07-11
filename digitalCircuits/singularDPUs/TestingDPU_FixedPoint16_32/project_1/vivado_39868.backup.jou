@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun 26 15:52:22 2025
+# Process ID: 39868
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33044 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source FixPointDpu_tb.tcl
+create_project project_2 C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/project_2 -part xc7k70tfbv676-1
+current_project project_1
+close_sim
+current_project project_2
+close [ open C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd w ]
+add_files C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd w ]
+add_files C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_project project_1
+current_project project_2
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPUtb.vhd w ]
+add_files -fileset sim_1 C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPUtb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl

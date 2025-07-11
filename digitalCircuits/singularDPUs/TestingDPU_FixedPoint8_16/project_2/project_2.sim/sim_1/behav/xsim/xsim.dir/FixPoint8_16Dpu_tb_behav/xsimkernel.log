@@ -1,0 +1,7 @@
+Running: xsim.dir/FixPoint8_16Dpu_tb_behav/xsimk.exe -simmode gui -wdb FixPoint8_16Dpu_tb_behav.wdb -simrunnum 0 -socket 54553
+Design successfully loaded
+Design Loading Memory Usage: 10320 KB (Peak: 10320 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 12676 KB (Peak: 12676 KB)
+Simulation CPU Usage: 1686 ms

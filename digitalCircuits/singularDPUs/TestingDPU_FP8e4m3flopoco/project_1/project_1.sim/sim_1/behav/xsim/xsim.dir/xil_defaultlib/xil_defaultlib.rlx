@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/DPU_FP8e4m3flopoco.vhd,1745321649,vhdl,,,,dotproductunitfp8e4m3,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/DPU_FP8e4m3flopoco_tb.vhd,1745586939,vhdl,,,,fp8e4m3flopocodpu_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/FMA_FP8e4m3flopoco.vhd,1745323939,vhdl,,,,ieeefpfma_4_3_comb_uid2;leftshifter16_by_max_15_comb_uid8;lzc_12_comb_uid6;rightshifter4_by_max_16_comb_uid4,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/FMA_FP8e4m3flopoco_TB.vhd,1745320911,vhdl,,,,testbench_ieeefpfma_4_3_comb_uid2_comb_uid10,,,,,,,,

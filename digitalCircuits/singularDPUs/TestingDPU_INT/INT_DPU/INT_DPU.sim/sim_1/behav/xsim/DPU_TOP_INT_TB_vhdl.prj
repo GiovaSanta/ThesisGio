@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Adder_INT.vhd" \
+"../../../../../Multiplier_INT.vhd" \
+"../../../../../DPU_TOP_INT.vhd" \
+"../../../../../def_package.vhd" \
+"../../../../../Adder_INT_TB.vhd" \
+"../../../../../Multiplier_INT_TB.vhd" \
+"../../../../../DPU_TOP_INT_TB.vhd" \
+
+# Do not sort compile order
+nosort

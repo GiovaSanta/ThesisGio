@@ -1,0 +1,24 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FP32Dpu_tb_behav xil_defaultlib.FP32Dpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture arch of entity xil_defaultlib.RightShifter24_by_max_76_comb_uid4 [rightshifter24_by_max_76_comb_ui...]
+Compiling architecture arch of entity xil_defaultlib.LZC_52_comb_uid6 [lzc_52_comb_uid6_default]
+Compiling architecture arch of entity xil_defaultlib.LeftShifter76_by_max_75_comb_uid8 [leftshifter76_by_max_75_comb_uid...]
+Compiling architecture arch of entity xil_defaultlib.IEEEFPFMA_8_23_comb_uid2 [ieeefpfma_8_23_comb_uid2_default]
+Compiling architecture behavioral of entity xil_defaultlib.DotProductUnitFP32 [dotproductunitfp32_default]
+Compiling architecture behavioral of entity xil_defaultlib.fp32dpu_tb
+Built simulation snapshot FP32Dpu_tb_behav

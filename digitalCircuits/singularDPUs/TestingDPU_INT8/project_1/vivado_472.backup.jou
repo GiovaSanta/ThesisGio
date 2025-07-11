@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 23 10:56:51 2025
+# Process ID: 472
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19404 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_INT8\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source TestBench_IntAdder_16_comb_uid2_comb_uid4.tcl
+set_property top INT8Dpu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL0/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL1/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL2/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL3}} 
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL0/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL1/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL2/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/FMUL3/R}} 
+save_wave_config {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+save_wave_config {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+set_property -name {xsim.simulate.runtime} -value {1000000ns} -objects [get_filesets sim_1]
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/ADDER0/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/ADDER1/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/ADDER2}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/ADDER2/R}} 
+current_wave_config {INT8Dpu_tb_behav.wcfg}
+add_wave {{/INT8Dpu_tb/uut/ADDER3/R}} 
+save_wave_config {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+save_wave_config {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_INT8/project_1/INT8Dpu_tb_behav.wcfg
+source INT8Dpu_tb.tcl
+close_sim

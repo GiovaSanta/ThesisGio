@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../DPU_FP32e8m23flopoco.vhd" \
+"../../../../../FMA_FP32e8m23flopoco.vhd" \
+"../../../../../DPU_FP32e8m23flopoco_TB.vhd" \
+
+# Do not sort compile order
+nosort

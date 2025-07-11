@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../TestingDPU_INT8/INT8_Mult.vhd" \
+"../../../../../../TestingDPU_INT8/INT8_Mult_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "dpufixedp8_16" -L "work" -L "secureip" --snapshot "FixPoint8_16Dpu_tb_behav" "work.FixPoint8_16Dpu_tb" -log "elaborate.log" 

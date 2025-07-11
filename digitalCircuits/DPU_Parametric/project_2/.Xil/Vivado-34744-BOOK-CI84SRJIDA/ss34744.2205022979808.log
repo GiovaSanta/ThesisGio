@@ -1,0 +1,56 @@
+srcscan starts
+srcscan exits with return value 0
+r VHDL std libs ===========
+INFO: VHDL library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: VHDL library search path for library "synopsys" is now "C:/Xilinx/Vivadosrcscan exits with return value 0
+sys" (VHDL-1505)
+INFO: VHDL library search path for library "ieee" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: VHDL library search path for library "unimacro" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: VHDL library search path for library "unisim" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: VHDL library search path for library "vl" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: VHDL library search path for library "xpm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'parametricDPUrel0' (VHDL-1012)
+INFO: analyzing architecture 'Behavioral' of entity 'parametricdpurel0' (VHDL-9006)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ',' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(115): WARNING: syntax error near ')' (VHDL-1261)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(114): ERROR: formal port 'float16out' has no actual or default value (VHDL-1768)
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(55): INFO: 'float16out' is declared here
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(56): INFO: 'float32out' is declared here
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(57): INFO: 'posit8out' is declared here
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(58): INFO: 'posit16out' is declared here
+C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist6571104882480349332.tmp(59): INFO: 'posit32out' is declared here
+-- Analyzing VHDL file "C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist12567066593135343131.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'mux_rel0' (VHDL-1012)
+INFO: analyzing architecture 'Behavioral' of entity 'mux_rel0' (VHDL-9006)
+-- Analyzing VHDL file "C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist16634836539445965683.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'DotProductUnitFP8e4m3' (VHDL-1012)
+INFO: analyzing architecture 'Behavioral' of entity 'dotproductunitfp8e4m3' (VHDL-9006)
+-- Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/FP8e4m3DPU/FMA_FP8e4m3flopoco.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'RightShifter4_by_max_16_comb_uid4' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'rightshifter4_by_max_16_comb_uid4' (VHDL-9006)
+INFO: analyzing entity 'LZC_12_comb_uid6' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'lzc_12_comb_uid6' (VHDL-9006)
+INFO: analyzing entity 'LeftShifter16_by_max_15_comb_uid8' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'leftshifter16_by_max_15_comb_uid8' (VHDL-9006)
+INFO: analyzing entity 'IEEEFPFMA_4_3_comb_uid2' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'ieeefpfma_4_3_comb_uid2' (VHDL-9006)
+-- Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/FP16DPU/FP16_FMA.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'RightShifter11_by_max_37_comb_uid4' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'rightshifter11_by_max_37_comb_uid4' (VHDL-9006)
+INFO: analyzing entity 'LZC_26_comb_uid6' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'lzc_26_comb_uid6' (VHDL-9006)
+INFO: analyzing entity 'LeftShifter37_by_max_36_comb_uid8' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'leftshifter37_by_max_36_comb_uid8' (VHDL-9006)
+INFO: analyzing entity 'IEEEFPFMA_5_10_comb_uid2' (VHDL-1012)
+INFO: analyzing architecture 'arch' of entity 'ieeefpfma_5_10_comb_uid2' (VHDL-9006)
+-- Analyzing VHDL file "C:/Users/giovi/AppData/Local/Temp/VivadoEditorAssist16753885870719310979.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'DotProductUnitFP16' (VHDL-1012)
+INFO: analyzing architecture 'Behavioral' of entity 'dotproductunitfp16' (VHDL-9006)
+srcscan exits with return value 0

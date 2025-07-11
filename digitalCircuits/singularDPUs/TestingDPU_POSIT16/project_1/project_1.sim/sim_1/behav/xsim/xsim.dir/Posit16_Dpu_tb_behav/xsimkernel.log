@@ -1,0 +1,4 @@
+Running: xsim.dir/Posit16_Dpu_tb_behav/xsimk.exe -simmode gui -wdb Posit16_Dpu_tb_behav.wdb -simrunnum 0 -socket 53874
+Design successfully loaded
+Design Loading Memory Usage: 9792 KB (Peak: 9792 KB)
+Design Loading CPU Usage: 15 ms

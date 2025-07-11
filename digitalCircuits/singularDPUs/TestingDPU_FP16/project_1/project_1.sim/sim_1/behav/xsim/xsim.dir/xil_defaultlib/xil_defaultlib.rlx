@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP16/FP16_DPU.vhd,1744990922,vhdl,,,,dotproductunitfp16,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP16/FP16_DPU_tb.vhd,1745879944,vhdl,,,,fp16dpu_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP16/FP16_FMA.vhd,1744990026,vhdl,,,,ieeefpfma_5_10_comb_uid2;leftshifter37_by_max_36_comb_uid8;lzc_26_comb_uid6;rightshifter11_by_max_37_comb_uid4,,,,,,,,

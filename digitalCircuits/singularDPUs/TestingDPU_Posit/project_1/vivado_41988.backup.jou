@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr 29 15:45:59 2025
+# Process ID: 41988
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11356 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_Posit\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit/project_1/project_1.xpr
+launch_simulation
+source Posit_Dpu_tb.tcl
+close_sim
+launch_simulation
+source Posit_Dpu_tb.tcl
+close_sim
+launch_simulation
+source Posit_Dpu_tb.tcl

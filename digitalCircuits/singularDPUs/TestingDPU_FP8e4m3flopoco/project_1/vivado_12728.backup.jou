@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Apr 28 14:46:38 2025
+# Process ID: 12728
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6400 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FP8e4m3flopoco\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1/FP8e4m3flopocoDpu_tb_behav.wcfg
+source FP8e4m3flopocoDpu_tb.tcl
+save_wave_config {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1/FP8e4m3flopocoDpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FP8e4m3flopoco/project_1/FP8e4m3flopocoDpu_tb_behav.wcfg
+source FP8e4m3flopocoDpu_tb.tcl
+close_sim

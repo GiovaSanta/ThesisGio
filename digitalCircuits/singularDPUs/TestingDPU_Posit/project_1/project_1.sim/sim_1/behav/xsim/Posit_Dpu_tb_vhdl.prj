@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Posit_Adder.vhd" \
+"../../../../../Posit8es0_Mult/Posit2PIF.vhd" \
+"../../../../../PositToFixConv.vhd" \
+"../../../../../Posit_Mult.vhd" \
+"../../../../../Posit_DPU.vhd" \
+"../../../../../Posit_Mult_tb.vhd" \
+"../../../../../PositToFixConv_tb.vhd" \
+"../../../../../Posit_Adder_TB.vhd" \
+"../../../../../Posit_DPU_tb.vhd" \
+
+# Do not sort compile order
+nosort

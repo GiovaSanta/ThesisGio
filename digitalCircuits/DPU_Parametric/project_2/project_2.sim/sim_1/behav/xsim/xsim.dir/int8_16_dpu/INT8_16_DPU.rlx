@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int8_16/INT8_Adder.vhd,1745342875,vhdl,,,,intadder_16_comb_uid2,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int8_16/INT8_DPU.vhd,1745399711,vhdl,,,,dot_unit_coreint8,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/DPU_Parametric/int8_16/INT8_Mult.vhd,1745399651,vhdl,,,,compressor_14_3_comb_uid61;compressor_23_3_comb_uid55;compressor_3_2_comb_uid58;compressor_6_3_comb_uid65;intadder_10_comb_uid88;intmultiplier_8x8_16_comb_uid2;intmultiplierlut_2_signedx2_comb_uid18;intmultiplierlut_2_signedx2_comb_uid30;intmultiplierlut_2_signedx2_comb_uid42;intmultiplierlut_2_signedx2_signed_comb_uid6;intmultiplierlut_3x2_comb_uid22;intmultiplierlut_3x2_comb_uid26;intmultiplierlut_3x2_comb_uid34;intmultiplierlut_3x2_comb_uid38;intmultiplierlut_3x2_comb_uid46;intmultiplierlut_3x2_comb_uid50;intmultiplierlut_3x2_signed_comb_uid10;intmultiplierlut_3x2_signed_comb_uid14;multtable_comb_uid12;multtable_comb_uid16;multtable_comb_uid20;multtable_comb_uid24;multtable_comb_uid28;multtable_comb_uid32;multtable_comb_uid36;multtable_comb_uid40;multtable_comb_uid44;multtable_comb_uid48;multtable_comb_uid52;multtable_comb_uid8,,,,,,,,

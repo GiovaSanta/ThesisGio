@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jul  6 18:38:28 2025
+# Process ID: 16320
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13992 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint8_16\project_2\project_2.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/project_2/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/project_2\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+set_property library dpuFixP8_16 [get_files  C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPUtb.vhd]
+set_property library work [get_files  C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPUtb.vhd]
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+export_ip_user_files -of_objects  [get_files C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd] -no_script -reset -force -quiet
+remove_files  {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd}
+add_files -norecurse {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd}
+set_property library dpufixedp8_16 [get_files  {C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16DPU.vhd C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint8_16/FixedPoint8_16_MAC.vhd}]
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim
+launch_simulation
+source FixPoint8_16Dpu_tb.tcl
+close_sim

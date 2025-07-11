@@ -1,0 +1,45 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../parametricDPU.vhd" \
+"../../../../../mux_rel0.vhd" \
+"../../../../../FP8e4m3DPU/DPU_FP8e4m3flopoco.vhd" \
+"../../../../../FP8e4m3DPU/FMA_FP8e4m3flopoco.vhd" \
+"../../../../../FP16DPU/FP16_FMA.vhd" \
+"../../../../../FP16DPU/FP16_DPU.vhd" \
+"../../../../../FP32DPU/DPU_FP32e8m23flopoco.vhd" \
+"../../../../../FP32DPU/FMA_FP32e8m23flopoco.vhd" \
+"../../../../../posit8DPU/Posit_DPU.vhd" \
+"../../../../../posit8DPU/Posit_Adder.vhd" \
+"../../../../../posit8DPU/Posit_Mult.vhd" \
+"../../../../../posit16DPU/posit16_0_Add.vhd" \
+"../../../../../posit16DPU/posit16_0_Mul.vhd" \
+"../../../../../posit16DPU/posit16_0_DPU.vhd" \
+"../../../../../posit32DPU/Posit32_2_Mul.vhd" \
+"../../../../../posit32DPU/Posit32_2_Add.vhd" \
+"../../../../../posit32DPU/Posit32_2_DPU.vhd" \
+
+vhdl FixedP8_16_dpu  \
+"../../../../../FixPoint8_16DPU/FixedPoint8_16_MAC.vhd" \
+"../../../../../FixPoint8_16DPU/FixedPoint8_16DPU.vhd" \
+
+vhdl FixedP16_32_DPU  \
+"../../../../../FixPoint16_32DPU/FixedPointMAC.vhd" \
+"../../../../../FixPoint16_32DPU/FixedPointDPU.vhd" \
+
+vhdl INT8_16_DPU  \
+"../../../../../int8_16/INT8_Adder.vhd" \
+"../../../../../int8_16/INT8_Mult.vhd" \
+"../../../../../int8_16/INT8_DPU.vhd" \
+
+vhdl INT16_32_DPU  \
+"../../../../../int16_32/Adder_INT.vhd" \
+"../../../../../int16_32/Multiplier_INT.vhd" \
+"../../../../../int16_32/def_package.vhd" \
+"../../../../../int16_32/DPU_TOP_INT.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../mux_rel0_tb.vhd" \
+"../../../../../parametricDPU_tb.vhd" \
+
+# Do not sort compile order
+nosort

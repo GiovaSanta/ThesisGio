@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Posit32_Dpu_tb_behav" "xil_defaultlib.Posit32_Dpu_tb" -log "elaborate.log" 

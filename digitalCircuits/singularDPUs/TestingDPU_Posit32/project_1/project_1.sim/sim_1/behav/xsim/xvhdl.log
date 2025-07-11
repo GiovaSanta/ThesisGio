@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit32/Posit32_2_Add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LZOCShifter_30_to_30_counting_32_F0_uid6'
+INFO: [VRFC 10-3107] analyzing entity 'PositDecoder_32_2_F0_uid4'
+INFO: [VRFC 10-3107] analyzing entity 'LZOCShifter_30_to_30_counting_32_F0_uid10'
+INFO: [VRFC 10-3107] analyzing entity 'PositDecoder_32_2_F0_uid8'
+INFO: [VRFC 10-3107] analyzing entity 'RightShifterSticky30_by_max_30_F0_uid12'
+INFO: [VRFC 10-3107] analyzing entity 'LZCShifter_30_to_30_counting_32_F0_uid14'
+INFO: [VRFC 10-3107] analyzing entity 'RightShifterSticky34_by_max_31_F0_uid16'
+INFO: [VRFC 10-3107] analyzing entity 'PositAdd2_32_2_F0_uid2'

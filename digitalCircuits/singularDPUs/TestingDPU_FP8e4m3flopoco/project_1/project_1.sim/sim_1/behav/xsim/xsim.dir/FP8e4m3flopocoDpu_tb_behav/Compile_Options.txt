@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "FP8e4m3flopocoDpu_tb_behav" "xil_defaultlib.FP8e4m3flopocoDpu_tb" -log "elaborate.log" 

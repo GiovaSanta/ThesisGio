@@ -1,0 +1,7 @@
+Running: xsim.dir/INT8Dpu_tb_behav/xsimk.exe -simmode gui -wdb INT8Dpu_tb_behav.wdb -simrunnum 0 -socket 63274
+Design successfully loaded
+Design Loading Memory Usage: 10012 KB (Peak: 10012 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 18872 KB (Peak: 18872 KB)
+Simulation CPU Usage: 2405 ms

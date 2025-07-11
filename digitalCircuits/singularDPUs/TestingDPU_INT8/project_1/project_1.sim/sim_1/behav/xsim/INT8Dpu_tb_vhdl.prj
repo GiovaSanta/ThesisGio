@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../INT8_Adder.vhd" \
+"../../../../../INT8_DPU.vhd" \
+"../../../../../INT8_Mult.vhd" \
+"../../../../../INT8_DPU_tb.vhd" \
+
+# Do not sort compile order
+nosort

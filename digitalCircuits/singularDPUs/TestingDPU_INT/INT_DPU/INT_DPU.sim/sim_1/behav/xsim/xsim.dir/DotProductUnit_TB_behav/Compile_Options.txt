@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DotProductUnit_TB_behav" "xil_defaultlib.DotProductUnit_TB" -log "elaborate.log" 

@@ -1,0 +1,30 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Posit32_Dpu_tb_behav xil_defaultlib.Posit32_Dpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture arch of entity xil_defaultlib.LZOCShifter_30_to_30_counting_32_F0_uid6 [lzocshifter_30_to_30_counting_32...]
+Compiling architecture arch of entity xil_defaultlib.PositDecoder_32_2_F0_uid4 [positdecoder_32_2_f0_uid4_defaul...]
+Compiling architecture arch of entity xil_defaultlib.LZOCShifter_30_to_30_counting_32_F0_uid10 [lzocshifter_30_to_30_counting_32...]
+Compiling architecture arch of entity xil_defaultlib.PositDecoder_32_2_F0_uid8 [positdecoder_32_2_f0_uid8_defaul...]
+Compiling architecture arch of entity xil_defaultlib.RightShifterSticky59_by_max_31_F0_uid12 [rightshiftersticky59_by_max_31_f...]
+Compiling architecture arch of entity xil_defaultlib.PositMult_32_2_F0_uid2 [positmult_32_2_f0_uid2_default]
+Compiling architecture arch of entity xil_defaultlib.RightShifterSticky30_by_max_30_F0_uid12 [rightshiftersticky30_by_max_30_f...]
+Compiling architecture arch of entity xil_defaultlib.LZCShifter_30_to_30_counting_32_F0_uid14 [lzcshifter_30_to_30_counting_32_...]
+Compiling architecture arch of entity xil_defaultlib.RightShifterSticky34_by_max_31_F0_uid16 [rightshiftersticky34_by_max_31_f...]
+Compiling architecture arch of entity xil_defaultlib.PositAdd2_32_2_F0_uid2 [positadd2_32_2_f0_uid2_default]
+Compiling architecture behavioral of entity xil_defaultlib.DotProductUnitPosit32 [dotproductunitposit32_default]
+Compiling architecture behavioral of entity xil_defaultlib.posit32_dpu_tb
+Built simulation snapshot Posit32_Dpu_tb_behav

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl dpufixedp8_16  \
+"../../../../../FixedPoint8_16DPU.vhd" \
+"../../../../../FixedPoint8_16_MAC.vhd" \
+
+vhdl work  \
+"../../../../../FixedPoint8_16DPUtb.vhd" \
+
+# Do not sort compile order
+nosort

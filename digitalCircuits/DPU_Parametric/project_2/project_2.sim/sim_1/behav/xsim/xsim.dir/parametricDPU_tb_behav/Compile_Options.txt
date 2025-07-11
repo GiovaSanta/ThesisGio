@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "FixedP8_16_dpu" -L "FixedP16_32_DPU" -L "INT8_16_DPU" -L "INT16_32_DPU" -L "secureip" --snapshot "parametricDPU_tb_behav" "xil_defaultlib.parametricDPU_tb" -log "elaborate.log" 

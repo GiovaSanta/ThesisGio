@@ -1,0 +1,484 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jul  3 23:51:09 2025
+# Process ID: 44364
+# Current directory: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11284 C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\project_1\project_1.xpr
+# Log file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/vivado.log
+# Journal file: C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1\vivado.jou
+# Running On: BOOK-CI84SRJIDA, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 8264 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:01:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1459.355 ; gain = 307.523
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FixPointDpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FixPointDpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FixPointDpu_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FixPointDpu_tb_behav -key {Behavioral:sim_1:Functional:FixPointDpu_tb} -tclbatch {FixPointDpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FixPointDpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 1547.309 ; gain = 25.844
+xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1547.309 ; gain = 34.141
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FixPointDpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:37 . Memory (MB): peak = 1547.309 ; gain = 45.820
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 22592 KB (Peak: 22592 KB), Simulation CPU Usage: 20937 ms
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\giovi\OneDrive\Desktop\Magistrale\Tesi\TestingDPU_FixedPoint16_32\FixedPointDPU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FixPointDpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FixPointDpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FixPointDpu_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/FixedPointDPU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FixPointDpu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid7 [multtable_comb_uid7_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_signed_comb_uid5 [intmultiplierlut_1_signedx2_sign...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid11 [multtable_comb_uid11_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_signed_comb_uid9 [intmultiplierlut_3x2_signed_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid15 [multtable_comb_uid15_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_signed_comb_uid13 [intmultiplierlut_3x2_signed_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid19 [multtable_comb_uid19_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_signed_comb_uid17 [intmultiplierlut_3x2_signed_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid23 [multtable_comb_uid23_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_signed_comb_uid21 [intmultiplierlut_3x2_signed_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid27 [multtable_comb_uid27_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_signed_comb_uid25 [intmultiplierlut_3x2_signed_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid31 [multtable_comb_uid31_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid29 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid35 [multtable_comb_uid35_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid33 [intmultiplierlut_3x2_comb_uid33_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid39 [multtable_comb_uid39_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid37 [intmultiplierlut_3x2_comb_uid37_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid43 [multtable_comb_uid43_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid41 [intmultiplierlut_3x2_comb_uid41_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid47 [multtable_comb_uid47_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid45 [intmultiplierlut_3x2_comb_uid45_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid51 [multtable_comb_uid51_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid49 [intmultiplierlut_3x2_comb_uid49_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid55 [multtable_comb_uid55_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid53 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid59 [multtable_comb_uid59_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid57 [intmultiplierlut_3x2_comb_uid57_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid63 [multtable_comb_uid63_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid61 [intmultiplierlut_3x2_comb_uid61_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid67 [multtable_comb_uid67_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid65 [intmultiplierlut_3x2_comb_uid65_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid71 [multtable_comb_uid71_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid69 [intmultiplierlut_3x2_comb_uid69_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid75 [multtable_comb_uid75_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid73 [intmultiplierlut_3x2_comb_uid73_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid79 [multtable_comb_uid79_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid77 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid83 [multtable_comb_uid83_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid81 [intmultiplierlut_3x2_comb_uid81_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid87 [multtable_comb_uid87_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid85 [intmultiplierlut_3x2_comb_uid85_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid91 [multtable_comb_uid91_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid89 [intmultiplierlut_3x2_comb_uid89_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid95 [multtable_comb_uid95_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid93 [intmultiplierlut_3x2_comb_uid93_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid99 [multtable_comb_uid99_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid97 [intmultiplierlut_3x2_comb_uid97_...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid103 [multtable_comb_uid103_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid101 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid107 [multtable_comb_uid107_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid105 [intmultiplierlut_3x2_comb_uid105...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid111 [multtable_comb_uid111_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid109 [intmultiplierlut_3x2_comb_uid109...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid115 [multtable_comb_uid115_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid113 [intmultiplierlut_3x2_comb_uid113...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid119 [multtable_comb_uid119_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid117 [intmultiplierlut_3x2_comb_uid117...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid123 [multtable_comb_uid123_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid121 [intmultiplierlut_3x2_comb_uid121...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid127 [multtable_comb_uid127_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid125 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid131 [multtable_comb_uid131_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid129 [intmultiplierlut_3x2_comb_uid129...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid135 [multtable_comb_uid135_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid133 [intmultiplierlut_3x2_comb_uid133...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid139 [multtable_comb_uid139_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid137 [intmultiplierlut_3x2_comb_uid137...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid143 [multtable_comb_uid143_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid141 [intmultiplierlut_3x2_comb_uid141...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid147 [multtable_comb_uid147_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid145 [intmultiplierlut_3x2_comb_uid145...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid151 [multtable_comb_uid151_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid149 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid155 [multtable_comb_uid155_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid153 [intmultiplierlut_3x2_comb_uid153...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid159 [multtable_comb_uid159_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid157 [intmultiplierlut_3x2_comb_uid157...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid163 [multtable_comb_uid163_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid161 [intmultiplierlut_3x2_comb_uid161...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid167 [multtable_comb_uid167_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid165 [intmultiplierlut_3x2_comb_uid165...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid171 [multtable_comb_uid171_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid169 [intmultiplierlut_3x2_comb_uid169...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid175 [multtable_comb_uid175_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_1_signedx2_comb_uid173 [intmultiplierlut_1_signedx2_comb...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid179 [multtable_comb_uid179_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid177 [intmultiplierlut_3x2_comb_uid177...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid183 [multtable_comb_uid183_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid181 [intmultiplierlut_3x2_comb_uid181...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid187 [multtable_comb_uid187_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid185 [intmultiplierlut_3x2_comb_uid185...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid191 [multtable_comb_uid191_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid189 [intmultiplierlut_3x2_comb_uid189...]
+Compiling architecture arch of entity xil_defaultlib.MultTable_comb_uid195 [multtable_comb_uid195_default]
+Compiling architecture arch of entity xil_defaultlib.IntMultiplierLUT_3x2_comb_uid193 [intmultiplierlut_3x2_comb_uid193...]
+Compiling architecture arch of entity xil_defaultlib.Compressor_23_3_comb_uid198 [compressor_23_3_comb_uid198_defa...]
+Compiling architecture arch of entity xil_defaultlib.Compressor_3_2_comb_uid201 [compressor_3_2_comb_uid201_defau...]
+Compiling architecture arch of entity xil_defaultlib.Compressor_14_3_comb_uid204 [compressor_14_3_comb_uid204_defa...]
+Compiling architecture arch of entity xil_defaultlib.Compressor_6_3_comb_uid209 [compressor_6_3_comb_uid209_defau...]
+Compiling architecture arch of entity xil_defaultlib.IntAdder_25_comb_uid315 [intadder_25_comb_uid315_default]
+Compiling architecture arch of entity xil_defaultlib.FixMultAdd_signed_x_5_M10_y_5_M10_a_11_M20_r_11_M20_comb_uid2 [fixmultadd_signed_x_5_m10_y_5_m1...]
+Compiling architecture behavioral of entity xil_defaultlib.DotProductUnit [dotproductunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.fixpointdpu_tb
+Built simulation snapshot FixPointDpu_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1547.809 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FixPointDpu_tb_behav -key {Behavioral:sim_1:Functional:FixPointDpu_tb} -tclbatch {FixPointDpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FixPointDpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:39 . Memory (MB): peak = 1585.395 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:42 . Memory (MB): peak = 1585.395 ; gain = 37.586
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FixPointDpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:01:02 . Memory (MB): peak = 1585.395 ; gain = 37.586
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 22040 KB (Peak: 22040 KB), Simulation CPU Usage: 24624 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FixPointDpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FixPointDpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FixPointDpu_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FixPointDpu_tb_behav -key {Behavioral:sim_1:Functional:FixPointDpu_tb} -tclbatch {FixPointDpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FixPointDpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:49 . Memory (MB): peak = 1585.395 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:52 . Memory (MB): peak = 1585.395 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FixPointDpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:59 . Memory (MB): peak = 1585.395 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16512 KB (Peak: 16512 KB), Simulation CPU Usage: 23655 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FixPointDpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FixPointDpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FixPointDpu_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FixPointDpu_tb_behav -key {Behavioral:sim_1:Functional:FixPointDpu_tb} -tclbatch {FixPointDpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FixPointDpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:40 . Memory (MB): peak = 1585.395 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:43 . Memory (MB): peak = 1585.395 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FixPointDpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:49 . Memory (MB): peak = 1585.395 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 21352 KB (Peak: 21352 KB), Simulation CPU Usage: 25296 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FixPointDpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FixPointDpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FixPointDpu_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FixPointDpu_tb_behav xil_defaultlib.FixPointDpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_FixedPoint16_32/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FixPointDpu_tb_behav -key {Behavioral:sim_1:Functional:FixPointDpu_tb} -tclbatch {FixPointDpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FixPointDpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:49 . Memory (MB): peak = 1589.492 ; gain = 0.152
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:52 . Memory (MB): peak = 1589.492 ; gain = 1.312
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FixPointDpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:01:00 . Memory (MB): peak = 1589.492 ; gain = 1.312
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 21440 KB (Peak: 21440 KB), Simulation CPU Usage: 30843 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  4 12:27:55 2025...

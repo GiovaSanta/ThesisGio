@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit32/Posit32_2_Add.vhd,1745942046,vhdl,,,,lzcshifter_30_to_30_counting_32_f0_uid14;lzocshifter_30_to_30_counting_32_f0_uid10;lzocshifter_30_to_30_counting_32_f0_uid6;positadd2_32_2_f0_uid2;positdecoder_32_2_f0_uid4;positdecoder_32_2_f0_uid8;rightshiftersticky30_by_max_30_f0_uid12;rightshiftersticky34_by_max_31_f0_uid16,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit32/Posit32_2_DPU.vhd,1745947356,vhdl,,,,dotproductunitposit32,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit32/Posit32_2_DPU_tb.vhd,1745948043,vhdl,,,,posit32_dpu_tb,,,,,,,,
+C:/Users/giovi/OneDrive/Desktop/Magistrale/Tesi/TestingDPU_Posit32/Posit32_2_Mul_tb.vhd,1745941124,vhdl,,,,posit32_mult_tb,,,,,,,,

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Posit32_2_Add.vhd" \
+"../../../../../Posit32_2_DPU.vhd" \
+"../../../../../Posit32_2_Mul.vhd" \
+"../../../../../Posit32_2_DPU_tb.vhd" \
+
+# Do not sort compile order
+nosort

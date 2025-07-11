@@ -1,0 +1,7 @@
+Running: xsim.dir/TestBench_IEEEFPFMA_8_23_comb_uid2_comb_uid10_behav/xsimk.exe -simmode gui -wdb TestBench_IEEEFPFMA_8_23_comb_uid2_comb_uid10_behav.wdb -simrunnum 0 -socket 52709
+Design successfully loaded
+Design Loading Memory Usage: 9432 KB (Peak: 9432 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 21460 KB (Peak: 21460 KB)
+Simulation CPU Usage: 234 ms
